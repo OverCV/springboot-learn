@@ -25,4 +25,5 @@ public class UsuarioEntity {
 
     @ElementCollection(fetch = FetchType.EAGER)
     private List<String> roles;
+
 }
